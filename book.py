@@ -171,8 +171,8 @@ def main_bg(author, text_list, index):
 def main():
     content_list = content.read_content()
     for index, c in enumerate(content_list):
-        if index <= 4:
-            continue
+        # if index <= 4:
+        #     continue
         main_bg(c.author, c.text_list, index)
 
 
